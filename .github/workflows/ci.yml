@@ -18,7 +18,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: '24'
+          node-version: '22.18.0'
+
+      - name: Set npm version
+        run: npm install --global npm@11.5.2
 
       - name: Check Node and npm versions
         run: |
