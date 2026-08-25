@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "skipLibCheck": true,
+        "isolatedModules": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "target": "es2022",
+        "module": "preserve",
+        "outDir": "./out-tsc/spec",
+        "rootDir": "./src/app",
+        "types": [
+            "vitest/globals"
+        ],
+        "preserveConstEnums": true
+    },
+    "files": [
+        "./src/app/app.spec.ts",
+        "./src/app/components/header/header.spec.ts"
+    ],
+    "include": [
+        "src/**/*.d.ts",
+        "src/**/*.spec.ts"
+    ],
+    "exclude": [
+        "/Users/shirinsanakulova/Development/my-habit-tracker/out-tsc/spec"
+    ]
+}
