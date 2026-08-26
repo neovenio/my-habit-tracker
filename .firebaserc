@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "my-habit-tracker-dev",
+    "prod": "my-habit-tracker-prod"
+  },
+  "targets": {},
+  "etags": {}
+}
