@@ -8,5 +8,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.scss',
 })
 export class App {
-  protected readonly title = signal('my-habit-tracker');
+  protected readonly title = signal('this is my Firebase project');
 }
